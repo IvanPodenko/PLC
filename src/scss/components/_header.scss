@@ -1,0 +1,50 @@
+.header {
+
+  position: relative;
+  // min-height: 1355px;
+  display: flex;
+  align-items: flex-end;
+
+  &__banner {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+
+    &-img {
+      width: 100%;
+      height: 100%; 
+    }
+  }
+
+  &__nav {
+    padding-top: 1192px;
+    padding-bottom: 74px;
+  }
+
+    &__list  {
+      margin: 0;
+      display: flex;
+      justify-content: space-around;
+
+      &-item {
+        font-family: DS Goose;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        color: var(--como);
+        list-style: none;
+      }
+
+    }
+
+
+
+
+
+
+}
