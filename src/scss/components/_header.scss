@@ -1,24 +1,34 @@
 .header {
 
-  position: relative;
+
+
+  background-image: url('/img/banner.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  // width: 100%;
   // min-height: 1355px;
-  display: flex;
-  align-items: flex-end;
 
-  &__banner {
 
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    z-index: -1;
+  // position: relative;
+  // min-height: 1355px;
+  // display: flex;
+  // align-items: flex-end;
 
-    &-img {
-      width: 100%;
-      height: 100%; 
-    }
-  }
+  // &__banner {
+
+  //   position: absolute;
+  //   top: 0;
+  //   left: 0;
+  //   bottom: 0;
+  //   right: 0;
+  //   z-index: -1;
+
+  //   &-img {
+  //     width: 100%;
+  //     height: 100%;
+  //   }
+  // }
 
   &__nav {
     padding-top: 1192px;
@@ -36,15 +46,63 @@
         font-style: normal;
         font-weight: 400;
         line-height: normal;
-        color: var(--como);
+        // color: var(--como);
         list-style: none;
+        // margin-right: 20px;
+
+        &-1{
+          transform: rotate(-0.878deg)
+        }
+
+        &-2 {
+          transform: rotate(2.27deg);
+        }
+
+        &-3 {
+          transform: rotate(-0.887deg)
+        }
+
+        &-4 {
+          transform: rotate(-4.319deg);
+        }
+
+        &-5 {
+          transform: rotate(2.576deg);
+        }
+
       }
+
+      &-link {
+        background-color:var(--light-color);
+        border-radius: 40px;
+        color: var(--como);
+
+        &-1 {
+          padding: 17px 77px;
+        }
+
+        &-2 {
+          padding: 17px 22px;
+        }
+
+        &-3 {
+          padding: 17px 103px;
+        }
+
+        &-4 {
+          padding: 23px 107px;
+        }
+
+        &-5 {
+          padding: 19px 75px;
+        }
+      }
+
+
 
     }
 
 
-
-
-
-
 }
+
+
