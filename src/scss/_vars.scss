@@ -2,7 +2,8 @@
 // colors
 :root {
   // base
-  --font-family: "Halogen", "DS Goose", sans-serif;
+  --font-family: "DS Goose", sans-serif;
+  --font-family-new: "Halogen", sans-serif;
   --content-width: 1920px;
   --container-offset: 15px;
   --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
@@ -10,4 +11,6 @@
   // colors
   --light-color: #fff;
   --como:#527D5F;
+  --sweet-corn:#FFE174;
+  --sweet-pink: #EA8F8C;
 }
