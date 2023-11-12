@@ -1,0 +1,61 @@
+.services {
+
+  background-image: url('/img/services.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 3000px;
+
+
+
+  &__title {
+    color: var(--light-color);
+    text-align: center;
+    font-family: DS Goose;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 0;
+    padding-top: 93px;
+  }
+
+  &__cards {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+
+    &-list {
+
+      width: 868px;
+
+      &-title {
+        text-transform: capitalize;
+        width: 480.625px;
+        height: 112.22px;
+        transform: rotate(-2.393deg);
+        border-radius: 55px;
+        background: var(--light-color);
+        color: var(--como);
+        text-align: center;
+        font-family: DS Goose;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 43px;
+        padding: 35px 52px;
+      }
+    }
+  }
+
+
+}
+
+
+
+
+
+
+

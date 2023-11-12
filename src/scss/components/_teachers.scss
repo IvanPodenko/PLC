@@ -1,7 +1,7 @@
 .teachers{
 
   background-color: var(--sweet-corn);
-  height: 5000px;
+  padding-bottom: 100px;
 
   &__title {
     text-align: center;
@@ -18,6 +18,8 @@
 
   &__list {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
 
   &__item {
@@ -29,15 +31,70 @@
 
     &-wrap {
 
+      position: relative;
+
+      &-green {
+        position: absolute;
+        top: 10%;
+        left: 80%;
+        width: 31px;
+
+        &-one{
+          top: 80%;
+        }
+
+        &-two {
+          top: 30%;
+          left: 93%;
+        }
+
+        &-three {
+          top: 5%;
+          left: 73%;
+        }
+
+        &-four {
+          top: 80%;
+        }
+
+        &-five {
+          top: 30%;
+          left: 93%;
+        }
+      }
+
+      &-pink {
+        position: absolute;
+        left: 5%;
+        top: 72%;
+
+        &-one{
+          top: 18%;
+        }
+
+        &-three {
+          top: 88%;
+          left: 70%;
+        }
+
+        &-four {
+          top: 18%;
+        }
+
+        &-five {
+          top: 88%;
+          left: 22%;
+        }
+      }
+
       &-image {
         width: 391px;
         height: 391px;
         border: 7px solid var(--sweet-pink);
         border-radius: 391px;
       }
-
-
     }
+
   }
 
 
@@ -54,7 +111,7 @@
     background-color: var(--como);
     border-radius: 60px;
     padding: 20px 40px;
-    margin: 5px;
+    margin: 15px;
   }
 
   &__subtitle {
@@ -86,6 +143,15 @@
     }
   }
 
+  &__label {
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px;
+    color: red;
+    font-size: 18px;
+    // border: 1px solid green;
+    // border-radius: 4px;
+  }
 
   &__descr {
     text-align: center;
@@ -104,22 +170,10 @@
     background: linear-gradient(to bottom , rgba(255, 225, 116,), rgb(255, 236, 166) 80%);
   }
 
-  &__label {
-    cursor: pointer;
-    display: inline-block;
-    padding: 10px;
-    color: red;
-    font-size: 18px;
-    // border: 1px solid green;
-    // border-radius: 4px;
-
-  }
 
 
 
-  &__item {
 
-  }
 
 }
 

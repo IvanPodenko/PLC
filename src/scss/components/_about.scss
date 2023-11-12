@@ -1,7 +1,7 @@
 .about {
   position: relative;
   min-height: 1009px;
-  margin-top: -84px;
+
 
   &__fon {
     position: absolute;
@@ -26,6 +26,7 @@
     padding-top: 90px;
     text-align: center;
     transform: rotate(1.368deg);
+    margin: 0;
   }
 
   &__content {
