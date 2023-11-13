@@ -4,7 +4,7 @@
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  height: 3000px;
+  padding-bottom: 120px;
 
 
 
@@ -19,19 +19,30 @@
     text-transform: capitalize;
     margin: 0;
     padding-top: 93px;
+    margin-bottom: 100px;
   }
 
   &__cards {
 
     display: flex;
     flex-wrap: wrap;
-    justify-content: right;
+    justify-content: space-around;
 
     &-list {
 
+      position: relative;
       width: 868px;
+      border-radius: 30px;
+      border: 5px solid var(--sweet-corn);
+      background: var(--como);
+      padding: 90px 20px 45px 25px;
+      margin-bottom: 130px;
 
       &-title {
+        position: absolute;
+        margin: 0;
+        top: -14%;
+        left: 14%;
         text-transform: capitalize;
         width: 480.625px;
         height: 112.22px;
@@ -45,7 +56,116 @@
         font-style: normal;
         font-weight: 400;
         line-height: 43px;
-        padding: 35px 52px;
+        padding: 40px 10px;
+        margin: 0;
+
+        &-one {
+          transform: rotate(1.35deg);
+        }
+
+        &-two {
+          color: var(--como);
+          text-align: center;
+          font-family: DS Goose;
+          font-size: 40px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 43px;
+          text-transform: capitalize;
+          transform: rotate(2.14deg);
+        }
+
+        &-three {
+          color: var(--como);
+          text-align: center;
+          font-family: DS Goose;
+          font-size: 40px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 43px;
+          text-transform: capitalize;
+          transform: rotate(-1.78deg);
+        }
+      }
+
+      &-descr {
+        color: var(--light-color);
+        text-align: center;
+        font-family: Halogen;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 50px;
+        margin: 0;
+      }
+    }
+  }
+
+  &__extra {
+    position: relative;
+    border-radius: 30px;
+    border: 5px solid var(--sweet-corn);
+    background: var(--como);
+    padding: 80px 20px 60px 20px;
+    margin-bottom: 120px;
+
+    &-title {
+      position: absolute;
+      top: -39%;
+      left: 10%;
+      color: var(--como);
+      text-align: center;
+      font-family: DS Goose;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      text-transform: capitalize;
+      transform: rotate(0.481deg);
+      border-radius: 55px;
+      background: var(--light-color);
+      padding: 31px 60px 30px 36px;
+      width: 1550px;
+      transform: rotate(0.481deg);
+
+      &-one {
+        font-size: 60px;
+        padding: 17px 30px 17px 30px;
+        top: -36%;
+        transform: rotate(-0.534deg);
+      }
+    }
+
+    &-descr {
+      color: var(--light-color);
+      text-align: center;
+      font-family: Halogen;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 45px;
+      margin: 0;
+    }
+
+    &-list {
+
+      display: flex;
+      flex-wrap: wrap;
+      color:var(--light-color);
+      text-align: center;
+      font-family: Halogen;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 70px;
+      list-style: none;
+      margin: 0;
+
+      &-item {
+        flex-basis: 50%;
+        background-image: url('/img/services-svg.svg');
+        background-repeat: no-repeat;
+        background-position: 0 10%;
       }
     }
   }
