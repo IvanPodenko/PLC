@@ -92,6 +92,10 @@
         height: 391px;
         border: 7px solid var(--sweet-pink);
         border-radius: 391px;
+
+        &-one {
+          border: 7px solid var(--como);
+        }
       }
     }
 
@@ -126,7 +130,13 @@
     margin-bottom: 10px;
   }
 
-  &__check {
+  &__check-one,
+  &__check-two,
+  &__check-three,
+  &__check-four,
+  &__check-five,
+  &__check-six,
+  &__check-seven {
     opacity: 0;
     position: absolute;
 

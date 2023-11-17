@@ -1,6 +1,9 @@
 .about {
   position: relative;
-  min-height: 1009px;
+  // min-height: 1009px;
+  padding-bottom: 132px;
+  padding-top: 92px;
+  background-color: var(--como);
 
 
   &__fon {
@@ -23,10 +26,9 @@
     font-weight: 400;
     line-height: normal;
     color: var(--light-color);
-    padding-top: 90px;
     text-align: center;
     transform: rotate(1.368deg);
-    margin: 0;
+    margin-bottom: 30px;
   }
 
   &__content {
@@ -40,7 +42,6 @@
     border: 7px solid var(--sweet-corn);
     border-radius: 40px;
     padding: 60px 37px;
-    margin-bottom: 132px;
     background-color: var(--como);
     transform: rotate(-0.514deg);
   }
