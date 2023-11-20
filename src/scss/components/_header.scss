@@ -8,6 +8,13 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+
+    @include mobile {
+      background-image: url('/img/banner-adaptiv.jpg');
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+    }
   }
 
 

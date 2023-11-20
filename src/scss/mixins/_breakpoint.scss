@@ -30,8 +30,14 @@
   }
 }
 
+// @mixin mobile {
+//   @media (max-width: (576px)) {
+//     @content;
+//   }
+// }
+
 @mixin mobile {
-  @media (max-width: (576px)) {
+  @media (max-width: (1076px)) {  //537 срабатывает
     @content;
   }
 }

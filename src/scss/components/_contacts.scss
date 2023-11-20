@@ -15,6 +15,13 @@
     line-height: normal;
     padding-top: 40px;
     margin-bottom: 60px;
+
+    @include mobile {
+      font-size: 50px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
   }
 
   &__wrapper {
@@ -29,15 +36,19 @@
 
   &__map {
 
-    width: 1300px;
+    width: 100%;
 
     &-settings {
-      width: 1300px;
       border-radius: 40px;
       border: 5px solid var(--como);
 
       @include tablet{
         width: 97%;
+      }
+
+      @include mobile {
+        flex-direction: column;
+        // width: 100%;
       }
     }
   }
@@ -64,6 +75,7 @@
       font-weight: 400;
       line-height: 43px; /* 107.5% */
       margin-bottom: 40px;
+
     }
 
     &-data {
@@ -77,6 +89,11 @@
       align-items: center;
       padding: 48px 25px 65px 25px;
       // margin-bottom: 23px;
+
+      @include mobile {
+        width: 100%;
+        margin-bottom: 20px;
+      }
     }
 
     &-input {
@@ -110,6 +127,10 @@
         line-height: 43px;
         background-color: var(--light-color);
       }
+
+      @include mobile {
+        width: 100%;
+      }
     }
 
   }
@@ -126,6 +147,10 @@
     border-radius: 60px;
     background: var(--como);
     padding: 43px 57px;
+
+    @include mobile {
+      font-size: 35px;
+    }
   }
 
 

@@ -7,6 +7,10 @@
   padding-bottom: 120px;
 
 
+  @include mobile {
+    padding-bottom: 1px;
+  }
+
 
   &__title {
     color: var(--light-color);
@@ -20,6 +24,14 @@
     margin: 0;
     padding-top: 93px;
     margin-bottom: 100px;
+
+    @include mobile {
+      font-size: 50px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      padding-top: 50px;
+    }
   }
 
   &__cards {
@@ -73,6 +85,10 @@
           line-height: 43px;
           text-transform: capitalize;
           transform: rotate(2.14deg);
+
+          @include mobile {
+            height: 120px;
+          }
         }
 
         &-three {
@@ -85,6 +101,18 @@
           line-height: 43px;
           text-transform: capitalize;
           transform: rotate(-1.78deg);
+
+          @include mobile {
+            font-size: 31px;
+            height: 120px;
+          }
+        }
+
+        @include mobile {
+          font-size: 47px;
+          width: 379.625px;
+          height: 87.22px;
+          padding: 20px 28px;
         }
       }
 
@@ -97,6 +125,13 @@
         font-weight: 400;
         line-height: 50px;
         margin: 0;
+
+        @include mobile {
+          font-size: 30px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+        }
       }
     }
   }
@@ -128,11 +163,23 @@
       width: 1550px;
       transform: rotate(0.481deg);
 
+      @include mobile {
+        font-size: 30px;
+        width: 720px;
+        padding: 14px 12px 13px 24px;
+        top: -28px;
+      }
+
       &-one {
         font-size: 60px;
         padding: 17px 30px 17px 30px;
         top: -15%;
         transform: rotate(-0.534deg);
+
+       @include mobile {
+        font-size: 33px;
+        top: -40px;
+       }
       }
     }
 
@@ -145,6 +192,10 @@
       font-weight: 400;
       line-height: 45px;
       margin: 0;
+
+      @include mobile {
+        font-size: 30px;
+      }
     }
 
     &-list {
@@ -160,6 +211,12 @@
       line-height: 70px;
       list-style: none;
       margin: 0;
+
+      @include mobile {
+        font-size: 30px;
+       line-height: 48px;
+
+      }
 
       &-item {
         flex-basis: 50%;
