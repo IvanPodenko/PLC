@@ -1,11 +1,20 @@
 .header {
 
 
+  background-color: #C9E6F3;
 
-  background-image: url('/img/banner.jpg');
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
+  &__container {
+    background-image: url('/img/banner.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+
+
+  // background-image: url('/img/banner.jpg');
+  // background-repeat: no-repeat;
+  // background-position: center center;
+  // background-size: cover;
   // width: 100%;
   // min-height: 1355px;
 
@@ -39,6 +48,10 @@
       margin: 0;
       display: flex;
       justify-content: space-around;
+
+      @include tablet {
+        flex-direction: column;
+      }
 
       &-item {
         font-family: DS Goose;
