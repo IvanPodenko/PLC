@@ -19,7 +19,7 @@
 // }
 
 @mixin tablet {
-  @media (max-width: (2024px)) {
+  @media (max-width: (2024px)) {  //срабатывает 1012
     @content;
   }
 }
