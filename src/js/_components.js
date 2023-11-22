@@ -1,3 +1,4 @@
-import './components/telegram';
+// import './components/telegram';
+// import './components/form';
 
 
