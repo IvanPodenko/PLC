@@ -24,8 +24,15 @@
   }
 }
 
+// @mixin small-tablet {
+//   @media (max-width: (768px)) {
+//     @content;
+//   }
+// }
+
+
 @mixin small-tablet {
-  @media (max-width: (768px)) {
+  @media (max-width: (1270px)) {  // срабатывает на 633
     @content;
   }
 }

@@ -137,6 +137,7 @@
       outline: none;
       padding-bottom: 20px;
       padding-top: 20px;
+      // transition: background-color .5s ease-in-out;
 
       @include mobile {
         font-size: 15px;
@@ -156,6 +157,15 @@
         font-weight: 400;
         line-height: 43px;
         background-color: var(--light-color);
+        transition: color .3s ease-in-out, background-color .3s ease-in-out ;
+
+        &:hover {
+          background-color:var(--como);
+          color: var(--light-color);
+        }
+
+
+
 
         @include mobile {
           font-size: 15px;
@@ -163,6 +173,7 @@
           width: 158px;
           height: 45px;
         }
+
       }
 
       @include mobile {
@@ -184,6 +195,8 @@
     border-radius: 60px;
     background: var(--como);
     padding: 43px 57px;
+    opacity: 1;
+    transition: opacity .3s ease-in-out;
 
     @include mobile {
       width: 50%;
@@ -191,12 +204,12 @@
       height: 39px;
       padding: 0;
     }
+
+    &:hover {
+      opacity: 0.6
+    }
+
   }
-
-
-
 }
-
-
 
 
