@@ -5,13 +5,13 @@
 
 $name = $_POST['username'];
 $phone = $_POST['userphone'];
-// $email = $_POST['user_email'];
+$text = $_POST['usertext'];  // добавил новый
 $token = "6334142224:AAE8WigRiLE8HR2LgyJRHK5a-gebU27sbA4";
 $chat_id = "-1002134499339";
 $arr = array(
   'Имя пользователя: ' => $name,
   'Телефон: ' => $phone,
-  // 'Email' => $email
+  'Text' => $text  // и тут добавил
 );
 
 foreach($arr as $key => $value) {

@@ -48,3 +48,10 @@
     @content;
   }
 }
+
+@mixin mobile-small{
+  @media (max-width: (880px)) {  //490 срабатывает
+    @content;
+  }
+}
+

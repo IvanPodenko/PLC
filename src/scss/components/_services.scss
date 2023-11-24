@@ -56,7 +56,7 @@
       &-title {
         position: absolute;
         margin: 0;
-        top: -14%;
+        top: -7%;
         left: 14%;
         text-transform: capitalize;
         width: 480.625px;
@@ -76,6 +76,7 @@
 
         &-one {
           transform: rotate(1.35deg);
+          top: -6%;
         }
 
         &-two {
@@ -88,9 +89,10 @@
           line-height: 43px;
           text-transform: capitalize;
           transform: rotate(2.14deg);
+          top: -7%;
 
           @include mobile {
-            height: 120px;
+           top: -5%;
           }
         }
 
@@ -117,13 +119,27 @@
           height: 31.112px;
           padding: 5px 5px 5px 5px;
           line-height: 23px;
-          top: -10%;
+          top: -9%;
+        }
+
+        &-four {
+          top: -63px;
+
+          @include mobile {
+            top: -10%;
+          }
+        }
+
+        &-five {
+          @include mobile {
+            top: -6%;
+          }
         }
       }
 
       &-descr {
         color: var(--light-color);
-        text-align: center;
+        // text-align: center;
         font-family: Halogen;
         font-size: 40px;
         font-style: normal;
@@ -136,6 +152,7 @@
           line-height: normal;
           padding-top: 15px;
         }
+
       }
     }
   }
@@ -256,6 +273,14 @@
         background-image: url('/img/services-svg.svg');
         background-repeat: no-repeat;
         background-position: 0 43%;
+
+        &-one {
+          background-position: 0 11%;
+        }
+
+        &-two {
+          background-position: 0 15%;
+        }
 
 
         @include mobile {

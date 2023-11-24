@@ -164,9 +164,6 @@
           color: var(--light-color);
         }
 
-
-
-
         @include mobile {
           font-size: 15px;
           padding-top: 0px;
@@ -174,6 +171,15 @@
           height: 45px;
         }
 
+      }
+
+      &-two {
+        padding: 19px;
+
+        @include mobile {
+          padding: 7px 0 0 0;
+          line-height: 15px;
+        }
       }
 
       @include mobile {
@@ -195,18 +201,30 @@
     border-radius: 60px;
     background: var(--como);
     padding: 43px 57px;
+
+    margin-left: 10%;
+    width: 57%;
+    justify-content: center;
+    display: flex;
+    /* position: relative; */
+    margin-top: 30px;
+
     opacity: 1;
     transition: opacity .3s ease-in-out;
 
     @include mobile {
       width: 50%;
       font-size: 15px;
-      height: 39px;
+      // height: 39px;
       padding: 0;
     }
 
     &:hover {
       opacity: 0.6
+    }
+
+    @include mobile-small {
+      width: 80%;
     }
 
   }

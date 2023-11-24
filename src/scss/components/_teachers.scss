@@ -117,6 +117,7 @@
         height: 391px;
         border: 7px solid var(--sweet-pink);
         border-radius: 391px;
+        object-position: 0% 27%;
 
         &-one {
           border: 7px solid var(--como);
@@ -125,6 +126,10 @@
         @include mobile {
           width: 250px;
           height: 250px;
+        }
+
+        &-two {
+          object-position: 0% 81%;
         }
       }
     }
@@ -144,7 +149,7 @@
     color: var(--light-color);
     background-color: var(--como);
     border-radius: 60px;
-    padding: 20px 40px;
+    padding: 20px 70px;
     margin: 15px;
 
     @include mobile {
@@ -200,13 +205,13 @@
     color: red;
     font-size: 18px;
     border: 1px solid transparent;
-    
 
-    &:hover {
-      border-color: var(--como);
-      border-radius: 34px;
-      padding: 2px 5px;
-    }
+
+    // &:hover {
+    //   border-color: var(--como);
+    //   border-radius: 34px;
+    //   padding: 2px 5px;
+    // }
   }
 
   &__descr {
@@ -215,7 +220,7 @@
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
-    line-height: 25px;
+    line-height: 36px;
     color: var(--como);
     display: inline-block;
     max-height: 100px;
