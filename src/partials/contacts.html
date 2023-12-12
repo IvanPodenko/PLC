@@ -11,9 +11,9 @@
       <div class="contacts__form">
         <form action="send.php" method="POST" class="contacts__form-data">
             <h3 class="contacts__form-title">Оставить заявку</h3>
-            <input class="contacts__form-input form-name" type="text" name="username" placeholder="Имя и Отчество" >
-            <input class="contacts__form-input form-phone" type="phone" name="userphone" placeholder="Ваш номер телефона">
-            <textarea class="contacts__form-input contacts__form-input-two" name="usertext" id="" cols="0" rows="3" placeholder="Какой специалист / какая услуга Вас интересует"></textarea>
+            <input class="contacts__form-input form-name" type="text" name="name" placeholder="Имя и Отчество" required minlength="2" maxlength="50">
+            <input class="contacts__form-input form-phone" type="phone" name="phone" placeholder="Ваш номер телефона" required minlength="10" maxlength="20">
+            <textarea class="contacts__form-input contacts__form-input-two" name="text" id="" cols="0" rows="3" maxlength="100" placeholder="Какой специалист / какая услуга Вас интересует"></textarea>
 
             <button class="contacts__form-input contacts__form-input-one  btn-reset" type="submit" >Записаться</button>
         </form>
