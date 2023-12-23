@@ -131,6 +131,10 @@
         &-two {
           object-position: 0% 81%;
         }
+
+        &-three {
+          object-position: 50% 0;
+        }
       }
     }
 
@@ -206,12 +210,6 @@
     font-size: 18px;
     border: 1px solid transparent;
 
-
-    // &:hover {
-    //   border-color: var(--como);
-    //   border-radius: 34px;
-    //   padding: 2px 5px;
-    // }
   }
 
   &__descr {
@@ -235,11 +233,6 @@
       font-size: 15px;
     }
   }
-
-
-
-
-
 
 }
 
